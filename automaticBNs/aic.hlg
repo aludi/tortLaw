@@ -1,0 +1,218 @@
+Thu May 11 20:27:08 2023
+
+
+Moral links:
+
+    Marrying cau and dmg
+    Marrying vst and vrt
+    Marrying vun and vrt
+    Marrying vun and vst
+    Marrying jus and vrt
+    Marrying jus and vst
+    Marrying jus and vun
+    Marrying ila and ift
+    Marrying ico and ift
+    Marrying ico and ila
+    Marrying prp and vst
+    Marrying c2 and dmg
+    Marrying c2 and cau
+    Marrying c3 and dmg
+    Marrying c3 and cau
+    Marrying c3 and c2
+    Marrying c5 and dmg
+    Marrying c5 and cau
+    Marrying c5 and c2
+    Marrying c5 and c3
+
+
+Triangulating prime component with 5 members:
+    vrt, vst, vun, jus, c3
+This component is a clique of cost 32
+
+Triangulating prime component with 4 members:
+    ift, ila, ico, c2
+This component is a clique of cost 16
+
+Triangulating prime component with 2 members:
+    cau, c1
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    dmg, c4
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    vst, prp, c5
+This component is a clique of cost 8
+
+Triangulating prime component with 3 members:
+    vst, c3, c5
+This component is a clique of cost 8
+
+Triangulating prime component with 6 members:
+    dmg, cau, dut, c2, c3, c5
+This component is a clique of cost 64
+
+
+Total cost of triangulation for all prime components is 136
+
+
+Elimination sequence:
+
+    ico
+    ila
+    ift
+    c1
+    jus
+    vun
+    vrt
+    prp
+    vst
+    dut
+    c2
+    cau
+    c5
+    c3
+    c4
+    dmg
+
+
+Cliques:
+
+Clique 7, 2 members, table size = 4:
+    dmg, c4
+
+Clique 6, 6 members, table size = 64:
+    dmg, c3, c5, cau, c2, dut
+
+Clique 5, 3 members, table size = 8:
+    c3, c5, vst
+
+Clique 4, 3 members, table size = 8:
+    c5, vst, prp
+
+Clique 3, 5 members, table size = 32:
+    c3, vst, vrt, vun, jus
+
+Clique 2, 2 members, table size = 4:
+    cau, c1
+
+Clique 1, 4 members, table size = 16:
+    c2, ift, ila, ico
+
+Total clique table size: 136
+
+
+The junction forest:
+
+Creating junction tree with clique 7 as root ...
+
+Cliques 6 and 7 linked, separator has 1 member and table size = 2:
+    dmg
+
+Cliques 5 and 6 linked, separator has 2 members and table size = 4:
+    c3, c5
+
+Cliques 4 and 5 linked, separator has 2 members and table size = 4:
+    c5, vst
+
+Cliques 3 and 5 linked, separator has 2 members and table size = 4:
+    c3, vst
+
+Cliques 2 and 6 linked, separator has 1 member and table size = 2:
+    cau
+
+Cliques 1 and 6 linked, separator has 1 member and table size = 2:
+    c2
+
+
+Assignment of potentials to cliques:
+
+    Node dmg assigned to clique 7
+    Node cau assigned to clique 2
+    Node vrt assigned to clique 3
+    Node vst assigned to clique 5
+    Node vun assigned to clique 3
+    Node jus assigned to clique 3
+    Node ift assigned to clique 1
+    Node ila assigned to clique 1
+    Node ico assigned to clique 1
+    Node prp assigned to clique 4
+    Node dut assigned to clique 6
+    Node c1 assigned to clique 2
+    Node c2 assigned to clique 1
+    Node c3 assigned to clique 3
+    Node c4 assigned to clique 7
+    Node c5 assigned to clique 4
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    dmg:
+	0          0.5
+	1          0.5
+
+    cau:
+	0          0.5
+	1          0.5
+
+    vrt:
+	0          0.5
+	1          0.5
+
+    vst:
+	0          0.5
+	1          0.5
+
+    vun:
+	0          0.5
+	1          0.5
+
+    jus:
+	0          0.5
+	1          0.5
+
+    ift:
+	0          0.5
+	1          0.5
+
+    ila:
+	0          0.5
+	1          0.5
+
+    ico:
+	0          0.5
+	1          0.5
+
+    prp:
+	0          0.5
+	1          0.5
+
+    dut:
+	0          0.890625
+	1          0.109375
+
+    c1:
+	0          0.5
+	1          0.5
+
+    c2:
+	0          0.125
+	1          0.875
+
+    c3:
+	0          0.3125
+	1          0.6875
+
+    c4:
+	0          0.5
+	1          0.5
+
+    c5:
+	0          0.75
+	1          0.25
